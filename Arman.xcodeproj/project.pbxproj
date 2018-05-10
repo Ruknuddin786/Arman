@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F3DA17420985543002E5BDA /* LoginFirbaseVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3DA17320985543002E5BDA /* LoginFirbaseVCViewController.swift */; };
+		2F3DA17620985563002E5BDA /* RegisterFirbaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3DA17520985563002E5BDA /* RegisterFirbaseVC.swift */; };
+		2FC5A64B20949683009A308E /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC5A64A20949683009A308E /* CustomTableViewCell.swift */; };
+		2FC805FF2095BD7A000D8891 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2FC805FE2095BD7A000D8891 /* GoogleService-Info.plist */; };
+		2FD1E74C209D485100F0B2B2 /* OrderPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD1E74B209D485100F0B2B2 /* OrderPageViewController.swift */; };
 		2FEB061B208E242700215835 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FEB061A208E242700215835 /* AppDelegate.swift */; };
 		2FEB061D208E242700215835 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FEB061C208E242700215835 /* LoginViewController.swift */; };
 		2FEB0620208E242700215835 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FEB061E208E242700215835 /* Main.storyboard */; };
@@ -14,9 +19,15 @@
 		2FEB0625208E242800215835 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FEB0624208E242800215835 /* Assets.xcassets */; };
 		2FEB0628208E242800215835 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FEB0626208E242800215835 /* LaunchScreen.storyboard */; };
 		2FFE884E2092C0C60016142A /* MessagingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FFE884D2092C0C60016142A /* MessagingViewController.swift */; };
+		C945380D16660751B72AE276 /* Pods_Arman.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F2DF0CCE7E8822B43610AF3 /* Pods_Arman.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2F3DA17320985543002E5BDA /* LoginFirbaseVCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginFirbaseVCViewController.swift; sourceTree = "<group>"; };
+		2F3DA17520985563002E5BDA /* RegisterFirbaseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterFirbaseVC.swift; sourceTree = "<group>"; };
+		2FC5A64A20949683009A308E /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		2FC805FE2095BD7A000D8891 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2FD1E74B209D485100F0B2B2 /* OrderPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderPageViewController.swift; sourceTree = "<group>"; };
 		2FEB0617208E242600215835 /* Arman.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Arman.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FEB061A208E242700215835 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2FEB061C208E242700215835 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -26,6 +37,9 @@
 		2FEB0627208E242800215835 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2FEB0629208E242800215835 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2FFE884D2092C0C60016142A /* MessagingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagingViewController.swift; sourceTree = "<group>"; };
+		8F2DF0CCE7E8822B43610AF3 /* Pods_Arman.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Arman.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		974FCEE1197BB2847F4BD67F /* Pods-Arman.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Arman.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Arman/Pods-Arman.debug.xcconfig"; sourceTree = "<group>"; };
+		C88779B3A85786C5AD9EC817 /* Pods-Arman.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Arman.release.xcconfig"; path = "Pods/Target Support Files/Pods-Arman/Pods-Arman.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +47,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C945380D16660751B72AE276 /* Pods_Arman.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2F3DA16420983954002E5BDA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		2FEB060E208E242600215835 = {
 			isa = PBXGroup;
 			children = (
 				2FEB0619208E242600215835 /* Arman */,
 				2FEB0618208E242600215835 /* Products */,
+				9B1A77059953B5AA377A47BC /* Pods */,
+				865B6C0FA60290F1A9081771 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +82,7 @@
 		2FEB0619208E242600215835 /* Arman */ = {
 			isa = PBXGroup;
 			children = (
+				2F3DA16420983954002E5BDA /* Resources */,
 				2FEB062F208E24B200215835 /* Controller */,
 				2FEB0630208E24C700215835 /* Model */,
 				2FEB0632208E24EE00215835 /* View */,
@@ -72,6 +97,9 @@
 				2FEB061A208E242700215835 /* AppDelegate.swift */,
 				2FEB061C208E242700215835 /* LoginViewController.swift */,
 				2FFE884D2092C0C60016142A /* MessagingViewController.swift */,
+				2F3DA17320985543002E5BDA /* LoginFirbaseVCViewController.swift */,
+				2F3DA17520985563002E5BDA /* RegisterFirbaseVC.swift */,
+				2FD1E74B209D485100F0B2B2 /* OrderPageViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -79,6 +107,7 @@
 		2FEB0630208E24C700215835 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				2FC5A64A20949683009A308E /* CustomTableViewCell.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -95,11 +124,29 @@
 		2FEB0633208E24FC00215835 /* Supporting files */ = {
 			isa = PBXGroup;
 			children = (
+				2FC805FE2095BD7A000D8891 /* GoogleService-Info.plist */,
 				2FEB0626208E242800215835 /* LaunchScreen.storyboard */,
 				2FEB0621208E242700215835 /* Arman.xcdatamodeld */,
 				2FEB0629208E242800215835 /* Info.plist */,
 			);
 			path = "Supporting files";
+			sourceTree = "<group>";
+		};
+		865B6C0FA60290F1A9081771 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8F2DF0CCE7E8822B43610AF3 /* Pods_Arman.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9B1A77059953B5AA377A47BC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				974FCEE1197BB2847F4BD67F /* Pods-Arman.debug.xcconfig */,
+				C88779B3A85786C5AD9EC817 /* Pods-Arman.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -109,9 +156,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2FEB062C208E242800215835 /* Build configuration list for PBXNativeTarget "Arman" */;
 			buildPhases = (
+				CADF264966F515681FBB3B00 /* [CP] Check Pods Manifest.lock */,
 				2FEB0613208E242600215835 /* Sources */,
 				2FEB0614208E242600215835 /* Frameworks */,
 				2FEB0615208E242600215835 /* Resources */,
+				6D59337DCDDF3245D1D4F384 /* [CP] Embed Pods Frameworks */,
+				3C99F85D0733BBF862E5CE10 /* [CP] Copy Pods Resources */,
+				2F7F983F209F3FDD00CE709B /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -161,6 +212,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2FEB0628208E242800215835 /* LaunchScreen.storyboard in Resources */,
+				2FC805FF2095BD7A000D8891 /* GoogleService-Info.plist in Resources */,
 				2FEB0625208E242800215835 /* Assets.xcassets in Resources */,
 				2FEB0620208E242700215835 /* Main.storyboard in Resources */,
 			);
@@ -168,14 +220,98 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2F7F983F209F3FDD00CE709B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "FILE=\"${SRCROOT}/HockeySDK-iOS/BuildAgent\"\nif [ -f \"$FILE\" ]; then\n\"$FILE\"\nfi";
+		};
+		3C99F85D0733BBF862E5CE10 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Arman/Pods-Arman-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/HockeySDK/HockeySDKResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/HockeySDKResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Arman/Pods-Arman-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D59337DCDDF3245D1D4F384 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Arman/Pods-Arman-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ChameleonFramework/ChameleonFramework.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChameleonFramework.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Arman/Pods-Arman-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CADF264966F515681FBB3B00 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Arman-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2FEB0613208E242600215835 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FD1E74C209D485100F0B2B2 /* OrderPageViewController.swift in Sources */,
 				2FEB061D208E242700215835 /* LoginViewController.swift in Sources */,
+				2FC5A64B20949683009A308E /* CustomTableViewCell.swift in Sources */,
 				2FFE884E2092C0C60016142A /* MessagingViewController.swift in Sources */,
+				2F3DA17620985563002E5BDA /* RegisterFirbaseVC.swift in Sources */,
 				2FEB061B208E242700215835 /* AppDelegate.swift in Sources */,
+				2F3DA17420985543002E5BDA /* LoginFirbaseVCViewController.swift in Sources */,
 				2FEB0623208E242700215835 /* Arman.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -236,7 +372,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -253,10 +389,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				"INSTALL_PATH[sdk=*]" = /Applications;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SKIP_INSTALL = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -307,9 +445,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				"INSTALL_PATH[sdk=*]" = /Applications;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SKIP_INSTALL = NO;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
@@ -318,15 +459,18 @@
 		};
 		2FEB062D208E242800215835 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 974FCEE1197BB2847F4BD67F /* Pods-Arman.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = FWPB38QB3A;
 				INFOPLIST_FILE = "$(SRCROOT)/Arman/Supporting files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ruknuddin..Arman;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ruknuddin.demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -335,15 +479,17 @@
 		};
 		2FEB062E208E242800215835 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C88779B3A85786C5AD9EC817 /* Pods-Arman.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FWPB38QB3A;
 				INFOPLIST_FILE = "$(SRCROOT)/Arman/Supporting files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ruknuddin..Arman;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ruknuddin.demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

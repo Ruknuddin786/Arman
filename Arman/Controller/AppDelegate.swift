@@ -8,6 +8,8 @@
 
 import UIKit
 import CoreData
+import Firebase
+import HockeySDK
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -17,6 +19,23 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        // Get DB file location
+        let urls = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)
+        print(urls[urls.count-1] as URL)
+        
+        // Initialize and Configure the Firebase
+        FirebaseApp.configure()
+        Database.database().reference()
+        
+        // ============= Hockey APP configureations =================
+        BITHockeyManager.shared().configure(withIdentifier: "0bf81086fe9441f894aa98b62c61f601")
+        // Do some additional configuration if needed here
+        BITHockeyManager.shared().start()
+        BITHockeyManager.shared().authenticator.authenticateInstallation()
+
+
+        
         return true
     }
 
